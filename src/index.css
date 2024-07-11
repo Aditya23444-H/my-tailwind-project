@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image {
+  @apply w-full h-56 lg:h-48 object-cover bg-center;
+}
+
+.card {
+  @apply mt-8 border-2 overflow-hidden flex flex-col  rounded-lg shadow-md hover:shadow-xl relative;
+}
+
+.btn {
+  @apply rounded-full py-2 px-3 cursor-pointer text-xs uppercase tracking-wider;
+}
